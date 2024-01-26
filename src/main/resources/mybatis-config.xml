@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- mybatis-config.xml文件中只保留setting和typeAliases-->
+
+<!--    <settings>-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+<!--    </settings>-->
+
+    <typeAliases>
+        <package name="com.wy.pojo"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper class="com.wy.dao.UserMapper"/>
+    </mappers>
+
+</configuration>
